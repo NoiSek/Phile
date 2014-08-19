@@ -5,7 +5,7 @@ $config['site_title']     = 'PhileCMS'; // Site title
 $config['base_url']       = \Phile\Utility::getBaseUrl(); // use the Utility class to guess the base_url
 $config['theme']          = 'default'; // Set the theme
 $config['date_format']    = 'jS M Y'; // Set the PHP date format
-$config['pages_order_by'] = 'title'; // Order pages by "title" (alpha) or "date"
+$config['pages_order_by'] = 'title'; // Order pages by "title" (AKA alpha) or "meta:date"
 $config['pages_order']    = 'desc'; // Order pages "asc" or "desc"
 
 // figure out the timezone
