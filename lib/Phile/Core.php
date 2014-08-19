@@ -183,7 +183,7 @@ class Core {
 		} else {
 			$templateVars = array();
 		}
-		$templateVars['setup_enrcyptionKey'] = Utility::generateSecureToken(64);
+		$templateVars['setup_encryptionKey'] = Utility::generateSecureToken(64);
 		Registry::set('templateVars', $templateVars);
 
 		/**
